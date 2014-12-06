@@ -91,11 +91,7 @@
                 android:id="@+id/buttonNear"
                 android:layout_gravity="center_horizontal"
 
-                android:scaleType="fitXY"
-
-
-                android:elevation="50dp"
-                android:background="?android:attr/selectableItemBackgroundBorderless"/>
+                android:background="#ffcceae7"/>
 
             <LinearLayout
                 android:orientation="vertical"
