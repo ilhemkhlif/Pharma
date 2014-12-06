@@ -60,8 +60,7 @@
                     android:id="@+id/button2"
                     android:gravity="center_vertical"
                     android:src="@drawable/location"
-                    android:scaleType="fitXY"
-                    android:background="#ffcceae7"
+
                     android:layout_gravity="center_horizontal" />
 
 
