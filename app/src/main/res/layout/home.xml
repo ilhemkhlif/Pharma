@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/home"
+                android:layout_gravity="center_horizontal"
+                android:background="#ff35a79c"
+                android:text="PharmaProche"
+               
+                android:textSize="22dp"
+                android:textColor="#fffdffff"
+                android:typeface="normal"
+                android:singleLine="true"
+                android:gravity="center_vertical|center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Quand ?"
+                    android:textSize="18dp"
+                    android:textColor="#ff011f4b"
+                    
+                    android:gravity="center_vertical|center_horizontal"
+                    />
+                </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button2"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/clock"
+
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/linearLayout2" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="Maintenant"
+                android:textColor="#ff011f4b"
+                android:id="@+id/buttonNow"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffcceae7" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/linearLayout3" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="Plus tard"
+                android:textColor="#ff011f4b"
+                android:id="@+id/buttonLater"
+                android:background="#ffcceae7"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
