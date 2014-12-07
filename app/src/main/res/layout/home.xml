@@ -20,13 +20,14 @@
                 android:id="@+id/home"
                 android:layout_gravity="center_horizontal"
                 android:background="#ff35a79c"
-                android:text="PharmaProche"
+                android:text="MaPharma"
                
                 android:textSize="22dp"
                 android:textColor="#fffdffff"
                 android:typeface="normal"
                 android:singleLine="true"
-                android:gravity="center_vertical|center_horizontal" />
+                android:gravity="center_vertical|center_horizontal"
+                android:phoneNumber="false" />
         </LinearLayout>
 
         <LinearLayout

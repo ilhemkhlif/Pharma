@@ -21,8 +21,8 @@
         android:layout_height="60dp" />
     <ImageView
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="120dp"
         android:id="@+id/slogan"
-        android:background="@drawable/slogan2" />
+        android:background="@drawable/slogon" />
 
 </LinearLayout>
